@@ -1,0 +1,121 @@
+
+    /* CSS for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black !important;
+  }
+  
+  /* CSS for table header */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  th{
+    border-color: white !important;
+
+  }
+  td{
+    border-color: tomato !important;
+  }
+  /* CSS for table rows */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* CSS for button */
+  .button2 {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button2:hover {
+    background-color: #c62828;
+  }
+  
+
+thead{
+    background-color: tomato !important;
+    color: black !important;
+}
+
+.viewsearch input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    width: 40%;
+    text-align: center;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+}
+
+.empsearch input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    width: 40%;
+    text-align: center;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon{
+    font-size: 30px;
+    color: tomato;
+    position: absolute;
+    top :92px;
+    right: 426px;
+}
+
+.icon:hover{
+    rotate: 360deg;
+    transition: 10s;
+}
+
+.viewemployeesection table tbody td button{
+    background-color: tomato;
+    border-radius: 20px;
+}
+
+.viewprosection table tbody td button{
+    background-color: tomato;
+    border-radius: 20px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    color: white;
+    
+}
+
+.viewprosection table tbody td button:hover{
+    
+    border: 2px solid black;
+}
+
+.viewemployeesection table tbody td button:hover{
+    
+    border: 2px solid black;
+}
